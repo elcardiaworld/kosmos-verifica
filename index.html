@@ -569,7 +569,7 @@
 // ============================================================
 // The patrons.json file must be in the same directory as this HTML.
 // Update it manually or via automation whenever the patron list changes.
-const DATA_URL = './patrons.json';
+const DATA_URL = './patrons.json?v=' + Date.now();
 
 // Tier metadata
 const TIERS = {
